@@ -20,14 +20,14 @@ namespace Donanım_Bİrimleri_1575
         private void button1_Click(object sender, EventArgs e)
         {
             string secim;
-            secim=listBox1.SelectedItems.ToString();
+            secim=listBox1.SelectedItem.ToString();
             if(secim=="Mouse"|| secim=="Klavye"|| secim == "Kamera" || secim == "Tarayıcı")
             {
                 MessageBox.Show("Bu parça giriş birimidir.");
             {
              if(secim=="Yazıcı"|| secim=="Hoparlör"|| secim == "Projeksiyon")
             {
-                        MessageBox.Show("Bu parça çıkış birimidir.");
+                MessageBox.Show("Bu parça çıkış birimidir.");
             }
             }
 
